@@ -1,0 +1,23 @@
+{
+  "name": "graphql-server-example",
+  "version": "1.0.0",
+  "description": "A hello world for graphql",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fanny vieira",
+  "license": "ISC",
+  "devDependencies": {
+    "apollo-server": "^2.4.8",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "dotenv": "^7.0.0",
+    "graphql": "^14.2.1",
+    "nodemon": "^1.18.11"
+  },
+  "dependencies": {
+    "mongoose": "^5.5.2"
+  }
+}
